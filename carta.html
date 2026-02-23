@@ -1,0 +1,678 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carta - Red Panda</title>
+    <link rel="stylesheet" href="./css/carta.css">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="shortcut icon" href="./SVG/RedPanda.svg" type="image/x-icon">
+</head>
+
+<body>
+    <div id="entry-wrapper">
+        <header id="main-header">
+            <div class="logo-container">
+                <p>Red Panda</p>
+                <img src="./SVG/RedPanda.svg" alt="Panda rojo">
+            </div>
+
+            <input type="checkbox" id="click">
+            <label for="click" class="menu-btn" tabindex="0">
+                <i class='bx bx-menu'></i>
+            </label>
+
+            <nav class="nav-menu">
+                <ul class="header-list">
+                    <li><a href="./index.html" class="link">Inicio</a></li>
+                    <li><a href="./carta.html" class="link active">Carta</a></li>
+                    <li><a href="./menu.html" class="link">Menús</a></li>
+                    <li><a href="./ubi.html" class="link">Ubicación</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <section class="entry-img">
+            <img src="./img/ramenClose.jpg" alt="Bowl de Ramen">
+            <div class="entry-text--wrapper p-absolute">
+                <h1>Red Panda</h1>
+                <p>Comida tradicional en un instante</p>
+            </div>
+        </section>
+
+        <main id="main-menu">
+            <section class="menu-index">
+                <h2 class="entry-title">Carta</h2>
+                <ul class="index-list">
+                    <div class="group">
+                        <li class="index-item"><a href="#menu-entr" class="link">Entrantes</a></li>
+                        <li class="index-item"><a href="#menu-acom" class="link">Acompañamientos</a></li>
+                        <li class="index-item"><a href="#menu-sopas" class="link">Sopas</a></li>
+                        <li class="index-item"><a href="#menu-sushi" class="link">Sushi y Sashimi</a></li>
+                    </div>
+                    <div class="group">
+                        <li class="index-item"><a href="#menu-talla" class="link">Tallarines</a></li>
+                        <li class="index-item"><a href="#menu-verd" class="link">Verduras</a></li>
+                        <li class="index-item"><a href="#menu-cerdo" class="link">Cerdo</a></li>
+                        <li class="index-item"><a href="#menu-ternera" class="link">Ternera</a></li>
+                    </div>
+
+                    <div class="group">
+                        <li class="index-item"><a href="#menu-pollo" class="link">Pollo</a></li>
+                        <li class="index-item"><a href="#menu-pescado" class="link">Pescado</a></li>
+                        <li class="index-item"><a href="#menu-pato" class="link">Pato</a></li>
+                        <li class="index-item"><a href="#menu-teppan" class="link">Teppanyaki</a></li>
+
+                    </div>
+                </ul>
+            </section>
+        </main>
+    </div>
+
+    <section id="menu-items">
+        <a href="#main-menu" id="back-to-top" class="hidden">↑</a>
+        <h3 id="menu-entr">Entrantes</h3>
+        <div class="menu-item-wrapper">
+            <div class="menu-item">
+                <h4>Rollitos vietnamitas (4uds.)</h4>
+                <p>Rellenos de cerdo picado, verduras y fideos chinos</p>
+                <p class="price">5,50€</p>
+            </div>
+
+            <div class="menu-item">
+                <h4>Rollitos de marisco (4 uds.)</h4>
+                <p>Rellenos de gambas, calamares, pescado picado y queso</p>
+                <p class="price">5,20€</p>
+            </div>
+
+            <div class="menu-item">
+                <h4>Ensalada vietnamita</h4>
+                <p>Pechuga de pollo, lechuga y verduras</p>
+                <p class="price">5,20€</p>
+            </div>
+
+            <div class="menu-item">
+                <h4>Ensalada china</h4>
+                <p class="price">4,70€</p>
+            </div>
+
+            <div class="menu-item">
+                <h4>Tempura mixta</h4>
+                <p>Marisco y verdura rebozada con harina de tempura</p>
+                <p class="price">8,85€</p>
+            </div>
+
+            <div class="menu-item">
+                <h4>Tempura de langostinos (11 uds.)</h4>
+                <p class="price">9,50€</p>
+            </div>
+
+            <div class="menu-item">
+                <h4>Rollo de primavera</h4>
+                <p class="price">2,40€</p>
+            </div>
+
+            <div class="menu-item">
+                <h4>Pan de gamba</h4>
+                <p class="price">3,20€</p>
+            </div>
+
+            <div class="menu-item">
+                <h4>Gyozas (6 uds.)</h4>
+                <p class="price">4,90€</p>
+            </div>
+
+            <div class="menu-item">
+                <h4>Wan Tun frito</h4>
+                <p>Empanadillas rellenas de marisco</p>
+                <p class="price">6,90€</p>
+            </div>
+
+            <div class="menu-item">
+                <h4>Pan chino</h4>
+                <p class="price">1,90€</p>
+            </div>
+
+            <div class="menu-item">
+                <h4>Rollitos de langostino (4 uds.)</h4>
+                <p>Rellenos de langostinos</p>
+                <p class="price">5,95€</p>
+            </div>
+
+            <div class="menu-item">
+                <h4>Rollitos de otoño</h4>
+                <p>Con carne de pato, verdura, etc…</p>
+                <p class="price">5,50€</p>
+            </div>
+
+            <div class="menu-item">
+                <h4>Ensalada Long</h4>
+                <p>Lechuga roble, langostinos, algas y anguriñas</p>
+                <p class="price">6,05€</p>
+            </div>
+
+            <div class="menu-item">
+                <h4>Ensalada tailandesa</h4>
+                <p>Lechuga roble, frutas naturales y frutos secos</p>
+                <p class="price">6,05€</p>
+            </div>
+
+            <div class="menu-item">
+                <h4>Ensalada japonesa</h4>
+                <p>Algas wakame con pepino, tofu y huevas de pescado</p>
+                <p class="price">8,75€</p>
+            </div>
+        </div>
+        <h3 id="menu-acom">Acompañamientos</h3>
+        <div class="menu-item-wrapper">
+            <div class="menu-item">
+                <h4>Arroz envuelto en hoja de loto al vapor</h4>
+                <p>Arroz mixto salteado con salsa de soja</p>
+                <p class="price">9,40€</p>
+            </div>
+
+            <div class="menu-item">
+                <h4>Arroz a la coreana</h4>
+                <p>Arroz con ternera y salsa de curry</p>
+                <p class="price">6,20€</p>
+            </div>
+
+            <div class="menu-item">
+                <h4>Arroz Long</h4>
+                <p>Salteado con pato, chorizo y salsa de soja, al vapor con caña de bambú</p>
+                <p class="price">9,40€</p>
+            </div>
+
+            <div class="menu-item">
+                <h4>Arroz Hawai</h4>
+                <p>½ piña natural rellena de arroz, carne, marisco y piña</p>
+                <p class="price">10,80€</p>
+            </div>
+
+            <div class="menu-item">
+                <h4>Arroz frito 3 delicias</h4>
+                <p>Con huevo, jamón y verduras</p>
+                <p class="price">5,20€</p>
+            </div>
+
+            <div class="menu-item">
+                <h4>Arroz blanco aromatizado</h4>
+                <p class="price">2,45€</p>
+            </div>
+
+            <div class="menu-item">
+                <h4>Arroz Singapur</h4>
+                <p>Arroz salteado con gambas, verduras, salsa de coco y salsa de gamba</p>
+                <p class="price">10,80€</p>
+            </div>
+
+            <div class="menu-item">
+                <h4>Arroz salteado con gambas, huevo y verduras</h4>
+                <p class="price">6,30€</p>
+            </div>
+        </div>
+
+        <h3 id="menu-sopas">Sopas</h3>
+        <div class="menu-item-wrapper">
+            <div class="menu-item">
+                <h4>Sopa agripicante</h4>
+                <p class="price">4,50€</p>
+            </div>
+            <div class="menu-item">
+                <h4>Sopa de miso</h4>
+                <p>Consomé japonés: pasta de marisco con tofu y alga wakame</p>
+                <p class="price">4,50€</p>
+            </div>
+            <div class="menu-item">
+                <h4>Sopa de marisco</h4>
+                <p>4,80€</p>
+            </div>
+            <div class="menu-item">
+                <h4>Sopa de pato</h4>
+                <p>4,50€</p>
+            </div>
+        </div>
+
+        <h3 id="menu-sushi">Sushi y Sashimi</h3>
+        <div class="menu-item-wrapper">
+            <div class="menu-item">
+                <h4>Maki variado (12 uds.)</h4>
+                <p>Rollitos de algas rellenos con arroz y salmón o atún</p>
+                <p class="price">13,60€</p>
+            </div>
+            <div class="menu-item">
+                <h4>Sashimi variado (12 uds.)</h4>
+                <p>Atún, salmón, lubina, etc… (Sólo pescado sin arroz)</p>
+                <p class="price">17,90€</p>
+            </div>
+            <div class="menu-item">
+                <h4>Sushi variado (8 uds.)</h4>
+                <p>Atún, salmón, lubina, etc… (Arroz con pescado encima)</p>
+                <p class="price">16,70€</p>
+            </div>
+            <div class="menu-item">
+                <h4>Futo Maki (8 uds.)</h4>
+                <p>Rollitos grandes de algas rellenos con arroz y vegetales</p>
+                <p class="price">14,95€</p>
+            </div>
+            <div class="menu-item">
+                <h4>California Maki (8 uds.)</h4>
+                <p>Rollitos rellenos de algas, aguacate y gamba cocida, enrollada con huevas de pescado</p>
+                <p class="price">14,95€</p>
+            </div>
+            <div class="menu-item">
+                <h4>«Long» Maki (8 uds.)</h4>
+                <p>Rollitos rellenos de algas, salmón, mango, y enrollado con sésamo</p>
+                <p class="price">14,95€</p>
+            </div>
+            <div class="menu-item">
+                <h4>Unagi (2 uds.)</h4>
+                <p>Anguila ahumada sobre bolita de arroz</p>
+                <p class="price">8,50€</p>
+            </div>
+            <div class="menu-item">
+                <h4>Ikura (2 uds.)</h4>
+                <p>Huevas de salmón sobre bolitas de arroz</p>
+                <p class="price">8,40€</p>
+            </div>
+            <div class="menu-item">
+                <h4>Maki, sushi y sashimi variado</h4>
+                <p class="price">29,95€</p>
+            </div>
+        </div>
+
+        <h3 id="menu-talla">Tallarines</h3>
+        <div class="menu-item-wrapper">
+            <div class="menu-item">
+                <h4>Tallarines fritos con gambas y verduras</h4>
+                <p class="price">6,35€</p>
+            </div>
+            <div class="menu-item">
+                <h4>Tallarines fritos con ternera y verduras</h4>
+                <p class="price">6,35€</p>
+            </div>
+            <div class="menu-item">
+                <h4>Fideos de arroz con tres delicias</h4>
+                <p class="price">6,35€</p>
+            </div>
+            <div class="menu-item">
+                <h4>Fideos transparentes salteados con ternera, pollo y verduras</h4>
+                <p class="price">7,10€</p>
+            </div>
+            <div class="menu-item">
+                <h4>Tallarines Long:</h4>
+                <p>Tallarines japoneses con gambas, pollo y verduras</p>
+                <p class="price">8,50€</p>
+            </div>
+            <div class="menu-item">
+                <h4>Tallarines Udon</h4>
+                <p>Al Teppanyaki con solomillo de ternera y verdura con salsa de ciruelas</p>
+                <p class="price">10,10€</p>
+            </div>
+            <div class="menu-item">
+                <h4>Tallarines tostados a las dos caras</h4>
+                <p>Con carne, verduras y hoja de bonito seco encima</p>
+                <p class="price">9,70€</p>
+            </div>
+        </div>
+
+        <h3 id="menu-verd">Verduras</h3>
+        <div class="menu-item-wrapper">
+            <div class="menu-item">
+                <h4>Verduras de temporada salteadas al wok</h4>
+                <p class="price">6,80€</p>
+            </div>
+            <div class="menu-item">
+                <h4>Bambú y setas chinas salteadas</h4>
+                <p class="price">7,10€</p>
+            </div>
+            <div class="menu-item">
+                <h4>Tiras de verduras rebozadas especial</h4>
+                <p class="price">6,80€</p>
+            </div>
+            <div class="menu-item">
+                <h4>Tofu al estilo japonés</h4>
+                <p class="price">9,55€</p>
+            </div>
+        </div>
+
+        <h3 id="menu-cerdo">Cerdo</h3>
+        <div class="menu-item-wrapper">
+            <div class="menu-item">
+                <h4>Cerdo agridulce</h4>
+                <p class="price">7,00€</p>
+            </div>
+            <div class="menu-item">
+                <h4>Berenjenas salteadas con carne (en crepes)</h4>
+                <p class="price">8,50€</p>
+            </div>
+            <div class="menu-item">
+                <h4>Cerdo Szechuan picante</h4>
+                <p class="price">7,00€</p>
+            </div>
+            <div class="menu-item">
+                <h4>Crepes con carne de cerdo</h4>
+                <p class="price">9,55€</p>
+            </div>
+            <div class="menu-item">
+                <h4>Costillas asadas</h4>
+                <p class="price">10,00€</p>
+            </div>
+            <div class="menu-item">
+                <h4>Costillas de cerdo</h4>
+                <p>Con salsa agridulce y soja al estilo cantonés</p>
+                <p class="price">8,75€</p>
+            </div>
+            <div class="menu-item">
+                <h4>Filete de cordero salteado</h4>
+                <p>Con ajo tierno al estilo Mongolia</p>
+                <p class="price">12,10€</p>
+            </div>
+            <div class="menu-item">
+                <h4>Costillas al estilo Mongol</h4>
+                <p>Trozos de costilla rebozados con salsa de soja y canela</p>
+                <p class="price">9,30€</p>
+            </div>
+        </div>
+
+        <h3 id="menu-ternera">Ternera</h3>
+        <div class="menu-item-wrapper">
+            <div class="menu-item">
+                <h4>Ternera al estilo coreano</h4>
+                <p class="price">9,30€</p>
+            </div>
+            <div class="menu-item">
+                <h4>Ternera a la plancha con cilantro</h4>
+                <p class="price">10,50€</p>
+            </div>
+            <div class="menu-item">
+                <h4>Ternera a la plancha con champiñones</h4>
+                <p class="price">8,65€</p>
+            </div>
+            <div class="menu-item">
+                <h4>Ternera picante Thai</h4>
+                <p class="price">9,30€</p>
+            </div>
+            <div class="menu-item">
+                <h4>Ternera con bambú y setas chinas</h4>
+                <p class="price">8,65€</p>
+            </div>
+            <div class="menu-item">
+                <h4>Ternera y salsa de ostras</h4>
+                <p class="price">8,65€</p>
+            </div>
+            <div class="menu-item">
+                <h4>Ternera con curry Thai</h4>
+                <p class="price">9,30€</p>
+            </div>
+            <div class="menu-item">
+                <h4>Ternera tres delicias:</h4>
+                <p class="price">8,65€</p>
+                <p>Tiras de ternera rebozada con salsa agridulce</p>
+            </div>
+            <div class="menu-item">
+                <h4>Solomillo a la plancha</h4>
+                <p class="price">15,80€</p>
+            </div>
+            <div class="menu-item">
+                <h4>Ternera con ajo puerro a la salsa Sa-Cha</h4>
+                <p class="price">9,30€</p>
+            </div>
+        </div>
+
+        <h3 id="menu-pescado">Pescado</h3>
+        <div class="menu-item-wrapper">
+            <div class="menu-item">
+                <h4>Ancas de rana rebozadas a la pimienta</h4>
+                <p class="price">9,80€</p>
+            </div>
+
+            <div class="menu-item">
+                <h4>Ancas de rana con puerros y salsa a la plancha</h4>
+                <p class="price">9,80€</p>
+            </div>
+
+            <div class="menu-item">
+                <h4>Cazuela de buey de mar con fideos chinos</h4>
+                <p class="price">15,90€</p>
+            </div>
+
+            <div class="menu-item">
+                <h4>Filete de lubina al vapor con bambú y setas chinas</h4>
+                <p class="price">11,80€</p>
+            </div>
+
+            <div class="menu-item">
+                <h4>Filetes de rodaballo salteados</h4>
+                <p class="price">15,90€</p>
+            </div>
+
+            <div class="menu-item">
+                <h4>Bogavante salteado con puerros y jengibre</h4>
+                <p class="price">29,95€</p>
+            </div>
+
+            <div class="menu-item">
+                <h4>Calamares con salsa Sa-Cha</h4>
+                <p class="price">8,50€</p>
+            </div>
+
+            <div class="menu-item">
+                <h4>Salmón a la plancha con salsa Teppanyaki</h4>
+                <p class="price">12,50€</p>
+            </div>
+
+            <div class="menu-item">
+                <h4>Filete de lubina rebozado con salsa agridulce estilo Malasia</h4>
+                <p class="price">11,80€</p>
+            </div>
+
+            <div class="menu-item">
+                <h4>Cazuela de mariscos, gambas , calamares, pescado, verdura, etc…</h4>
+                <p class="price">11,95€</p>
+            </div>
+
+            <div class="menu-item">
+                <h4>Gambas picantes</h4>
+                <p class="price">10,95€</p>
+            </div>
+
+            <div class="menu-item">
+                <h4>Gambas con bambú y setas chinas</h4>
+                <p class="price">10,95€</p>
+            </div>
+
+            <div class="menu-item">
+                <h4>Gambas al curry verde Thai</h4>
+                <p class="price">11,50€</p>
+            </div>
+
+            <div class="menu-item">
+                <h4>Gambas con frutos secos</h4>
+                <p class="price">11,50€</p>
+            </div>
+
+            <div class="menu-item">
+                <h4>Gambas a la plancha al estilo chino</h4>
+                <p class="price">11,50€</p>
+            </div>
+
+            <div class="menu-item">
+                <h4>Gambas fritas con sésamo</h4>
+                <p class="price">11,10€</p>
+            </div>
+
+            <div class="menu-item">
+                <h4>Cangrejo chino a la plancha</h4>
+                <p class="price">12,50€</p>
+            </div>
+
+            <div class="menu-item">
+                <h4>Ku-bak con gambas: Arroz melosos con gambas y verdura</h4>
+                <p class="price">9,80€</p>
+            </div>
+
+            <div class="menu-item">
+                <h4>Gambas a la sal y pimienta</h4>
+                <p class="price">11,95€</p>
+            </div>
+
+            <div class="menu-item">
+                <h4>Familia feliz: Pollo, ternera, gambas, etc…</h4>
+                <p class="price">11,10€</p>
+            </div>
+        </div>
+        <h3 id="menu-pollo">Pollo</h3>
+        <div class="menu-item-wrapper">
+            <div class="menu-item">
+                <h4>Pollo mandarín:</h4>
+                <p class="price">7,95€</p>
+                <p>Dados de pechuga de pollo salteados con verduras a la salsa de soja</p>
+            </div>
+            <div class="menu-item">
+                <h4>Pollo estilo Kan-Bao:</h4>
+                <p class="price">7,95€</p>
+                <p>Pollo salteado con pimienta verde y roja a la salsa agridulce y soja</p>
+            </div>
+            <div class="menu-item">
+                <h4>Pollo salteado con almendras y verduras</h4>
+                <p class="price">8,25€</p>
+            </div>
+            <div class="menu-item">
+                <h4>Pollo al curry verde Thai</h4>
+                <p class="price">8,80€</p>
+            </div>
+            <div class="menu-item">
+                <h4>Pollo al limón</h4>
+                <p class="price">7,50€</p>
+            </div>
+            <div class="menu-item">
+                <h4>Pollo rebozado con almendras</h4>
+                <p class="price">9,00€</p>
+            </div>
+            <div class="menu-item">
+                <h4>Pollo al estilo Vietnam:</h4>
+                <p class="price">8,80€</p>
+                <p>Pollo con laurel y ajos tiernos, etc… a la salsa sabrosa</p>
+            </div>
+            <div class="menu-item">
+                <h4>Bolitas de pollo frito</h4>
+                <p class="price">7,05€</p>
+            </div>
+            <div class="menu-item">
+                <h4>Pollo al estilo Mu-Xu:</h4>
+                <p class="price">9,30€</p>
+                <p>Pollo con huevo revuelto y setas chinas</p>
+            </div>
+        </div>
+
+        <h3 id="menu-pato">Pato</h3>
+        <div class="menu-item-wrapper">
+            <div class="menu-item">
+                <h4>Pato al estilo japonés:</h4>
+                <p class="price">14,80€</p>
+                <p>Pato laminado sin hueso con salsa de soja</p>
+            </div>
+            <div class="menu-item">
+                <h4>Pato al estilo Xiang Su:</h4>
+                <p class="price">13,60€</p>
+                <p>Trozo de pato con hueso. Crujiente en el exterior</p>
+            </div>
+            <div class="menu-item">
+                <h4>Pato Pekín:</h4>
+                <p class="price">16,95€</p>
+                <p>Pato con crepes, pepino y ajo puerro para hacer rollitos. (Un solo servicio)</p>
+            </div>
+            <div class="menu-item">
+                <h4>Pato laqueado Pekín:</h4>
+                <p class="price">16,60€</p>
+                <p>(Mínimo 2 personas. Precio por persona) Tres servicios: Consomé de pato, rollitos de pato y carne de
+                    pato con verduras</p>
+            </div>
+            <div class="menu-item">
+                <h4>Pato a la naranja</h4>
+                <p class="price">14,80€</p>
+            </div>
+            <div class="menu-item">
+                <h4>Pato a la vietnamita:</h4>
+                <p class="price">16,60€</p>
+                <p>Tiras de pato salteado con verdura a la salsa Thai en hoja de cogollo y menta</p>
+            </div>
+        </div>
+
+        <h3 id="menu-teppan">Teppanyaki</h3>
+        <div class="menu-item-wrapper">
+            <div class="menu-item">
+                <h4>Arroz al teppanyaki</h4>
+                <p class="price">11,90€</p>
+            </div>
+            <div class="menu-item">
+                <h4>Yakitori, pincho de pollo japonés (2 uds.)</h4>
+                <p class="price">6,50€</p>
+            </div>
+            <div class="menu-item">
+                <h4>Yakitori, pincho de ternera japonés (2 uds.)</h4>
+                <p class="price">8,60€</p>
+            </div>
+            <div class="menu-item">
+                <h4>Tataki de solomillo con salsa de ajo:</h4>
+                <p class="price">11,80€</p>
+                <p>Carpaccio de solomillo con salsa</p>
+            </div>
+            <div class="menu-item">
+                <h4>Tataki de atún con salsa de ajo:</h4>
+                <p class="price">14,30€</p>
+                <p>Atún crudo con salsa</p>
+            </div>
+            <div class="menu-item">
+                <h4>Muslo de pollo troceado con salsa teppanyaki</h4>
+                <p class="price">11,10€</p>
+            </div>
+            <div class="menu-item">
+                <h4>Solomillo</h4>
+                <p class="price">17,95€</p>
+                <p>Taco de solomillo quemado con coñac y salsa</p>
+            </div>
+            <div class="menu-item">
+                <h4>Ventresca de atún con salsa teppanyaki</h4>
+                <p class="price">17,95€</p>
+            </div>
+        </div>
+    </section>
+    </main>
+
+    <footer id="main-footer">
+        <div class="footer-wrapper">
+            <h5 class="title-sm">Restaurante Red Panda I</h5>
+            <p>
+                60 Great Victoria St<br>
+                Belfast BT2 7BB, United Kingdom</p>
+        </div>
+
+        <div class="footer-wrapper">
+            <h5 class="title-sm">Restaurante Red Panda II</h5>
+            <p>
+                13-14, Pannier Market, Fore St<br>
+                Callington PL17 7AD, United Kingdom</p>
+        </div>
+
+        <div class="footer-wrapper">
+            <h5 class="title-sm">Contacto</h5>
+            <p class="txt-saturated"><span class="txt-red">Red Panda I:</span><br>
+                906 99 96 09</p>
+            <p class="txt-saturated"><span class="txt-red">Red Panda II:</span><br>
+                906 99 97 06</p>
+        </div>
+    </footer>
+
+    <footer id="copyright-footer">
+        <p>Diseñado por <a href="https://paumorillas.github.io/CV-WEB-2026-A4-STYLE/" target="_blank" class="link">Pau Morillas Huerta</a> | <span
+                class="txt-saturated">Red Panda S.L©</span></p>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
