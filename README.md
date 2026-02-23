@@ -1,6 +1,6 @@
 # 🍜 Red Panda Restaurant - Landing Page
 
-Una landing page moderna y responsive para un restaurante iventado, desarrollada completamente desde cero sin frameworks ni librerías externas.
+Una landing page moderna y responsive para un restaurante inventado, desarrollada completamente desde cero sin frameworks ni librerías externas.
 
 🌍 **[Ver el proyecto en vivo (GitHub Pages)](https://paumorillas.github.io/landing-red-panda-restaurant/)**
 
