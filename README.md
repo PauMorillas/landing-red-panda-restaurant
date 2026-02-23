@@ -24,4 +24,4 @@ Al ser un proyecto estático, no requiere instalación de dependencias ni servid
 
 1. Clona este repositorio:
    ```bash
-   git clone [https://github.com/PauMorillas/landing-red-panda-restaurant.git](https://github.com/PauMorillas/landing-red-panda-restaurant.git)
+   git clone https://github.com/PauMorillas/landing-red-panda-restaurant.git
